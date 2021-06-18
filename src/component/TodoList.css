@@ -1,0 +1,24 @@
+ul{
+    margin: 0;
+    height: calc(90vh - 190px);
+    padding: 0.75em 0.5em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+ul li{
+    padding: 1em 0.75em;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+ul::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #ccc;
+}
