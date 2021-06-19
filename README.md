@@ -1,4 +1,4 @@
 ## Simple TodoApp
 ### A simple todoapp with React.js
 
-[demo](https://nafasebra.github.io/reactjs-todoapp)
+Click to view [Demo](https://nafasebra.github.io/reactjs-todoapp)
