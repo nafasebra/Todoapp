@@ -8,3 +8,10 @@
  - I use context in React.js (State managment)
 
 Click to view [Demo](https://nafasebra.github.io/reactjs-todoapp)
+
+---
+
+For clone this repo: 
+```
+git clone https://github.com/nafasebra/reactjs-todoapp
+```
