@@ -6,6 +6,7 @@
 ### Features:
  - Nice UI :)
  - I use context in React.js (State managment)
+ - LocalStorage for store Todos
 
 Click to view [Demo](https://nafasebra.github.io/reactjs-todoapp)
 
