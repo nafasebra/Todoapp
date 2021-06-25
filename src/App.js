@@ -11,11 +11,12 @@ import './App.css';
 
 export default function App() {
 
-  const [todo, setTodo] = useState([]);
+  let getState = JSON.parse( localStorage.getItem('todoList') ) || [];
+  const [todo, setTodo] = useState(getState);
 
   React.useEffect( () => {
-    setTodo( JSON.parse(localStorage.getItem('todoList')) );
-  }, []);
+    localStorage.setItem('todoList', JSON.stringify(todo));
+  }, [todo]);
 
   let addTodo = (text) => {
     setTodo([
@@ -30,7 +31,6 @@ export default function App() {
     let selectItem = todo.filter(item => item.key !== key);
     setTodo([ ...selectItem ]);
     localStorage.setItem('todoList', JSON.stringify(selectItem));
-    console.log(todo);
   }
 
   return (
